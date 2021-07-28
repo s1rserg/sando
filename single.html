@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Страница объявления</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- header section -->
+      <div class="header container">
+        <!-- navigation bar section -->
+        <div class="header__navigation-bar">
+          <a href="/index.html" class="navigation-bar__logo">
+            <img
+              src="img/logo-image.svg"
+              alt="logo-image"
+              class="navigation-bar__logo__image"
+            />
+          </a>
+
+          <!-- navigation bar menu section -->
+          <nav class="navigation-bar__menu">
+            <ul class="navigation-bar__menu__list">
+              <li class="navigation-bar__menu__list__item">
+                <a href="#" class="navigation-bar__menu__list__item__link"
+                  >Авто</a
+                >
+              </li>
+              <li class="navigation-bar__menu__list__item">
+                <a href="#" class="navigation-bar__menu__list__item__link"
+                  >Недвижимость</a
+                >
+              </li>
+              <li class="navigation-bar__menu__list__item">
+                <a href="#" class="navigation-bar__menu__list__item__link"
+                  >Работа</a
+                >
+              </li>
+              <li class="navigation-bar__menu__list__item">
+                <a href="#" class="navigation-bar__menu__list__item__link"
+                  >Услуги</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <!-- navigation-bar button group section -->
+          <div class="navigation-bar__button-group">
+            <a href="#" class="navigation-bar__button-group__button-link"
+              >Вход и регистрация</a
+            >
+            <a href="#" class="navigation-bar__button-group__button-primary"
+              >Подать объявление</a
+            >
+          </div>
+        </div>
+        <!-- /.header__navigation-bar -->
+
+        <!-- search panel section -->
+        <div class="header__search-panel">
+          <input
+            type="search"
+            class="search-panel__input-panel"
+            placeholder="Поиск по объявлениям"
+          />
+          <button class="search-panel__button-panel">
+            <svg
+              class="search-panel__button-panel__logo"
+              width="15"
+              height="15"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.6506 14.0012L10.0862 9.43675C10.9465 8.43352 11.4706
+                7.13293 11.4706 5.71058C11.4706 2.54822 8.89765 -0.0247192 5.7353
+                -0.0247192C4.20353 -0.0247192 2.76265 0.571751 1.67824 1.6544C0.595589
+                2.73793 -0.000881376 4.17881 9.77541e-07 5.71058C9.77541e-07 8.87293
+                2.57294 11.4459 5.7353 11.4459C7.15765 11.4459 8.45912 10.9218 9.46235
+                10.0615L14.0268 14.6259L14.6506 14.0012ZM5.7353 10.5635C3.06 10.5635
+                0.882354 8.38675 0.882354 5.71058C0.881472 4.41352 1.38618 3.19499
+                2.30294 2.2791C3.21882 1.36234 4.43824 0.857634 5.7353 0.857634C8
+                .41059 0.857634 10.5882 3.0344 10.5882 5.71058C10.5882 8.38587 8.41059
+                    10.5635 5.7353 10.5635Z"
+                fill="white"
+              />
+            </svg>
+
+            <span class="search-panel__button-panel__text">Найти</span>
+          </button>
+        </div>
+        <!-- /.header__search-panel -->
+      </div>
+    </header>
+    <!-- main content section -->
+    <div class="page-content container">
+      <!-- main information section -->
+      <main class="page-content__main page-content__main-single">
+        <!-- main content of advertisement -->
+        <div class="main__content">
+          <h2 class="main__title">Proove gx</h2>
+          <!-- slider with images -->
+          <!-- slider main container -->
+          <div
+            style="
+              --swiper-navigation-color: #fff;
+              --swiper-pagination-color: #fff;
+            "
+            class="swiper-container mySwiper2"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="img/samokat__1.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/samokat__2.jfif" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/samokat__3.jfif" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/samokat__4.jfif" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/samokat__5.jfif" />
+              </div>
+            </div>
+          </div>
+          <div thumbsSlider="" class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="img/samokat__1.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/samokat__2.jfif" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/samokat__3.jfif" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/samokat__4.jfif" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/samokat__5.jfif" />
+              </div>
+            </div>
+          </div>
+          <!-- end of slider -->
+          <!-- описание -->
+          <div class="main__content__text">
+            <p>
+              Продаю не спеша самокат в хорошем состоянии. <br />
+              Торг возможен. <br />
+              За период эксплуатации не выявлено ни одной проблемы. <br />
+              Из минусов — нужно прокачать задний тормоз. <br />
+              Установлен отсекатель сзади. <br />
+              Покрышки CST внедорожные. <br />
+              Все на подшипниках, болты протянуты.
+              <br />
+              Пробег 881км , это немного для такого зверя.
+            </p>
+          </div>
+          <!--  -->
+        </div>
+        <!-- /.main__content -->
+        <!-- author of advertisement -->
+        <div class="main__author">
+          <strong class="author__price">25 000 ₽</strong>
+          <div class="author__wrapper">
+            <div class="author__wrapper__author-info">
+              <span class="author__wrapper__author-info__author-name"
+                >Михаил Воробьев
+              </span>
+              <div class="author__wrapper__author-info__rating">
+                <img
+                  src="img/star.png"
+                  alt=""
+                  class="author__wrapper__author-info__rating__star"
+                />
+                <img
+                  src="img/star.png"
+                  alt=""
+                  class="author__wrapper__author-info__rating__star"
+                />
+                <img
+                  src="img/star.png"
+                  alt=""
+                  class="author__wrapper__author-info__rating__star"
+                />
+                <img
+                  src="img/star.png"
+                  alt=""
+                  class="author__wrapper__author-info__rating__star"
+                />
+                <img
+                  src="img/star.png"
+                  alt=""
+                  class="author__wrapper__author-info__rating__star"
+                />
+
+                <span class="author__wrapper__author-info__rating__counter"
+                  >5 отзывов</span
+                >
+              </div>
+              <span class="author__wrapper__author-info__status"
+                >Частное лицо</span
+              >
+            </div>
+            <img
+              src="img/avatar_img.png"
+              alt="avatar"
+              class="author__wrapper__author_image"
+            />
+          </div>
+
+          <div class="main__author__button-group">
+            <button
+              class="
+                author__button-group__button-number
+                author__button-group__button-block
+              "
+            >
+              Показать телефон
+            </button>
+            <button
+              class="
+                author__button-group__button-message
+                author__button-group__button-block
+              "
+            >
+              Написать сообщение
+            </button>
+          </div>
+        </div>
+        <!-- /.main__author -->
+      </main>
+      <aside class="page-content__sidebar">
+        <a href="#">
+          <img src="img/banner.png" alt="" />
+        </a>
+        <a href="#">
+          <img src="img/banner_2.png" alt="" />
+        </a>
+        <hr color="#E5E5E5" />
+
+        <footer class="footer">
+          <p class="footer__text">© ООО «Сандо», 2011–2021</p>
+          <ul class="footer__list__1">
+            <li class="footer__list__item">
+              <a href="#" class="footer__list__item__text"
+                >Политика конфиденциальности</a
+              >
+            </li>
+            <li class="footer__list__item">
+              <a href="#" class="footer__list__item__text">Обработка данных</a>
+            </li>
+          </ul>
+          <ul class="footer__list__2">
+            <li class="footer__list__item">
+              <a href="#" class="footer__list__item__link">Реклама на сайте</a>
+            </li>
+            <li class="footer__list__item">
+              <a href="#" class="footer__list__item__link">Вакансии</a>
+            </li>
+            <li class="footer__list__item">
+              <a href="#" class="footer__list__item__link">Помощь</a>
+            </li>
+          </ul>
+        </footer>
+      </aside>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
